@@ -20,7 +20,6 @@ function checkValues() {
   var val6 = $('#input-6').val();
   var word = val0 + val1 + val2 + val3 + val4 + val5 + val6;
   if (word === '3wXezlN') {
-    console.log('success');
     $('#container-puzzle').hide();
     var video = $('#container-video');
     video.show();
